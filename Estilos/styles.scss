@@ -1,0 +1,120 @@
+$padding: 2em;
+$color_main: #21262C;
+$color_secondary: pink;
+$color_3: #EBF4F4; 
+// Color testing
+
+
+
+@use 'sassFiles/__media-querys';
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $color_main;
+    color: $color_secondary;
+    #carrito{
+        background-color: $color_3;
+        text-align: center;
+        font-weight: 500;
+        li{
+            border-radius: 5px;
+            padding: .5em;
+            display: grid;
+            place-items: center;
+            margin: .5em;
+            background-color: $color_secondary;
+            .cart__tarjeta {
+                display: grid;
+                place-items: center;
+                text-align: center;
+                .cart__precio-cantidad {
+                    display: flex;
+                    gap: 1em;
+                    align-items: center;
+                    justify-content: center;
+                    .cart__precio {
+                        font-weight: bold;
+                    }
+                }
+            }
+            button {
+                border: none;
+                border-radius: 5px;
+                padding: .3em 1.5em;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+    .productos-wrapper {
+        display: grid;
+        place-items: center;
+        .productos__title-container {
+            padding-top: $padding;
+            color: $color_3;
+            display: grid;
+            place-items: center;
+            padding: 5em 0;
+            form {
+                display: grid;
+                grid-template-columns: repeat(2, 50%);
+                align-items: center;
+                grid-gap: 1.3em;
+                fieldset {
+                    display: grid;
+                    grid-template-columns: 90% auto;
+                    font-size: 1.2rem;
+                    align-items: center;
+                }
+            }
+        }
+        .productos__card-container {
+            display: grid;
+            padding: $padding / 2;
+            .product-card {
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                border-radius: 5px;
+                width: 300px;
+                display: grid;
+                place-items: center;
+                padding: $padding / 2;
+                background-color: pink;
+                color: #2e2e2e;
+                font-weight: 600;
+                margin: .5em 0;
+                text-align: center;
+                .product-img {
+                    // background-color: #2e2e2e;
+                    width: 250px;
+                    
+                }
+                .product-card__buttons {
+                    padding: 1em 0;
+                    button {
+                        padding: .5em 1em;
+                        border: none;
+                        border-radius: 10px;
+                        font-weight: 600;
+                        background-color: $color_main;
+                        color: $color_3;
+                    }
+                }
+                
+            }
+        }
+    
+    }
+    footer {
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            list-style: none;
+            padding: $padding;
+        }
+    }
+

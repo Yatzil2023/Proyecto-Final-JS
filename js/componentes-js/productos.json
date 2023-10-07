@@ -1,0 +1,76 @@
+[
+    {
+    "id": 1, 
+    "nombre": "Sudadera Adidas Gris",
+    "img": "./Recursos/imgs/Productos/01.jpg",
+    "precio": "1000",
+    "categoria": "ropa",
+    "cantidad": 0
+},
+{
+    "id": 2, 
+    "nombre": "Sudadera Adidas Negra",
+    "img": "./Recursos/imgs/Productos/02.jpg",
+    "precio": 1000,
+    "categoria": "ropa",
+    "cantidad": 0
+},
+{
+    "id": 3, 
+    "nombre": "Sudadera Adidas Azul",
+    "img": "./Recursos/imgs/Productos/03.jpg",
+    "precio": 1000,
+    "categoria": "ropa",
+    "cantidad": 0
+},
+{
+    "id": 4, 
+    "nombre": "Sudadera Puma Negra",
+    "img": "./Recursos/imgs/Productos/04.jpg",
+    "precio": 1000,
+    "categoria": "ropa",
+    "cantidad": 0
+},
+{
+    "id": 5, 
+    "nombre": "Tenis Adidas Blancos con rosa",
+    "img": "./Recursos/imgs/Productos/05.jpg",
+    "precio": 1000,
+    "categoria": "calzado",
+    "cantidad": 0
+},
+{
+    "id": 6, 
+    "nombre": "Tenis Adidas Blancos con negro",
+    "img": "./Recursos/imgs/Productos/06.jpg",
+    "precio": 1000,
+    "categoria": "calzado",
+    "cantidad": 0
+},
+{
+    "id": 7, 
+    "nombre": "Tenis Puma Blancos",
+    "img": "./Recursos/imgs/Productos/07.jpg",
+    "precio": 1000,
+    "categoria": "calzado",
+    "cantidad": 0
+},
+{
+    "id": 8, 
+    "nombre": "Tenis Puma Azul",
+    "img": "./Recursos/imgs/Productos/08.jpg",
+    "precio": 1000,
+    "categoria": "calzado",
+    "cantidad": 0
+},
+{
+    "id": 9, 
+    "nombre": "Tenis Adidas Azul",
+    "img": "./Recursos/imgs/Productos/09.jpg",
+    "precio": 1000,
+    "categoria": "calzado",
+    "cantidad": 0
+}
+
+
+]
